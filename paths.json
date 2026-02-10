@@ -1,10 +1,11 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/aem-boilerplate-xwalk-bersha/:/",
+    "/content/aem-boilerplate-xwalk-bersha/configuration:/.helix/config.json",
+    "/content/aem-boilerplate-xwalk-bersha/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/aem-boilerplate-xwalk-bersha/",
+    "/content/dam/"
   ]
 }
