@@ -18,7 +18,7 @@ module.exports = {
     'import/extensions': ['error', { js: 'always' }], // require js file extensions in imports
     'linebreak-style': ['error', 'unix'], // enforce unix linebreaks
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
-     'import/no-extraneous-dependencies': ['error', {
+    'import/no-extraneous-dependencies': ['error', {
       devDependencies: ['**/*.test.js', '**/*.spec.js', 'playwright.config.js'],
     }],
     'xwalk/max-cells': ['error', {
@@ -47,7 +47,7 @@ module.exports = {
       rating: 18,
       password: 20,
       tnc: 12,
-      range: 19
+      range: 19,
     }],
     'xwalk/no-orphan-collapsible-fields': 'off', // Disable until enhancement is done for Forms properties
   },
