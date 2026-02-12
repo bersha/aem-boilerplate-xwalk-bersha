@@ -6,6 +6,7 @@
   ],
   "includes": [
     "/content/aem-boilerplate-xwalk-bersha/",
-    "/content/dam/"
+    "/content/dam/",
+    "/content/forms/af/"
   ]
 }
